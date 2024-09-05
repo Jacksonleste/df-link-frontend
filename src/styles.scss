@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Cores principais */
+  --primary-color: #003f5c; /* Fundo do header */
+  --secondary-color: #2f4b7c; /* Botões e elementos destacados */
+  --accent-color: #ffa600; /* Detalhes e destaque (como botões de enviar) */
+  --background-light: #f8f8f8; /* Fundo claro */
+
+  /* Cores de texto */
+  --text-color-dark: #333333; /* Cor do texto principal */
+  --text-color-light: #ffffff; /* Cor do texto sobre fundos escuros */
+  --text-highlight-color: #ffcc00; /* Texto destacado (por exemplo, subtítulos) */
+
+  /* Cores dos inputs */
+  --input-border-color: #cccccc; /* Bordas dos campos de formulário */
+  --input-background-color: #ffffff; /* Fundo dos campos de formulário */
+  --input-text-color: #333333; /* Cor do texto dentro dos inputs */
+
+  /* Cores de botões */
+  --button-background-color: #2f4b7c; /* Fundo dos botões */
+  --button-text-color: #ffffff; /* Cor do texto dos botões */
+  --button-hover-color: #ffa600; /* Cor dos botões ao passar o mouse */
+
+  /* Cores de fundo específicas */
+  --header-background: rgba(0, 0, 0, 0.45); /* Header com opacidade */
+  --landing-background: #d9e8f0; /* Cor clara do fundo da landing page */
+
+  /* Outras cores */
+  --border-color: #e0e0e0; /* Cor das bordas para contornos e divisões */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.container{
+  padding: 10rem 0 10rem 0;
+}
