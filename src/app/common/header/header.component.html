@@ -1,1 +1,8 @@
-<header><p>teste</p></header>
+<header>
+  <img [routerLink]="['home']" src="../../../assets/images/logo.png">
+  <nav>
+    <a [routerLink]="['home']" routerLinkActive="nav-active" >Home</a>
+    <a [routerLink]="['/explorar']" routerLinkActive="nav-active">Explorar <br/> Contatos</a>
+    <a [routerLink]="['/compartilhar']" routerLinkActive="nav-active">Compartilhar <br> Contatos</a>
+  </nav>
+</header>
