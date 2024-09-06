@@ -1,8 +1,20 @@
 <header>
-  <img [routerLink]="['home']" src="../../../assets/images/logo.png">
-  <nav>
-    <a [routerLink]="['home']" routerLinkActive="nav-active" >Home</a>
-    <a [routerLink]="['/explorar']" routerLinkActive="nav-active">Explorar <br/> Contatos</a>
-    <a [routerLink]="['/compartilhar']" routerLinkActive="nav-active">Compartilhar <br> Contatos</a>
+  <img src="../../../assets/images/logo.png" />
+
+  <div id="hamburger-menu" (click)="toggleMenu()">
+    <span id="bar-1" class="bar" [ngClass]="{ active: menuActive }"></span>
+    <span id="bar-2" class="bar" [ngClass]="{ active: menuActive }"></span>
+    <span id="bar-3" class="bar" [ngClass]="{ active: menuActive }"></span>
+  </div>
+  <nav [ngClass]="{ active: menuActive }">
+    <a [routerLink]="['home']" routerLinkActive="nav-active">Home</a>
+    <a [routerLink]="['/explorar']" routerLinkActive="nav-active"
+      >Explorar <br />
+      Contatos</a
+    >
+    <a [routerLink]="['/compartilhar']" routerLinkActive="nav-active"
+      >Compartilhar <br />
+      Contatos</a
+    >
   </nav>
 </header>
