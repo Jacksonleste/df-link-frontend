@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  --green-principal: #038c33;
-  --yellow-principal: #f2b705;
+  --principal-green: #038c33;
+  --principal-yellow: #f2b705;
   --grey-light: #F0F0F0;
-  --header-background: #00000073; /* Header com opacidade */
+  --black-translucent: #00000073; /* Header com opacidade */
   --landing-background: #d9e8f0; /* Cor clara do fundo da landing page */
 }
+
 
 
 *{
@@ -27,5 +28,5 @@ body {
 }
 
 .container{
-  padding: 10rem 0 10rem 0;
+  padding: 10rem 0 20rem 0;
 }

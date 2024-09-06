@@ -2,7 +2,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 10rem;
-  background-color: var(--header-background);
+  background-color: var(--black-translucent);
   display: flex;
   justify-content: space-around;
 
@@ -97,7 +97,7 @@ header {
 
     nav {
       font-size: 2.5rem;
-      background-color: var(--header-background);
+      background-color: var(--black-translucent);
       width: 22rem;
       flex-direction: column;
       position: fixed;
